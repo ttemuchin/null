@@ -13,7 +13,7 @@ c = int(input())
 if (a<=0) or (b<=0) or (c<=0):
     print("Try values > 0")
 else:
-    if (a+b>c) and (a+c>b) and (c+b>a):
+    if (a+b>c) and (a+c>b) and (c+b>a):#so weak(((
         type(a, b, c)
     else:
         print("sry, but such triangle doesn't exist")
